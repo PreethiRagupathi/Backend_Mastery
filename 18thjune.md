@@ -43,67 +43,69 @@ Tools Setup
 VS Code, Node.js, and Git setup were already completed.
 
 **Terminal Basics**
-dir - Lists files and folders
-cd - Changes directory
-cd..- Moves one folder back
-cls - Clears screen
-exit- Closes terminal
-mkdir- Creates a new folder
-rmdir- Deletes a folder
-del - Deletes a file
-copy - Copies files
-move - Moves files
-ren - Renames a file
-type - Displays file content
-ipconfig - Shows IP configuration
-ping - Tests network connection
-tracert - Traces network path
-netstat - Shows network connections
-tasklist- Lists running processes
-taskkill- Stops a process
-systeminfo - Shows system details
-whoami - Shows current user
-set - Displays environment variables
-echo - Prints text in terminal
-start - Opens application or file
-shutdown - Shuts down or restarts PC
-tree - Shows folder structure
+
+- `dir` – Lists files and folders.
+- `cd` – Changes the current directory.
+- `cd..` – Moves one folder back.
+- `cls` – Clears the terminal screen.
+- `exit` – Closes the terminal.
+- `mkdir` – Creates a new folder.
+- `rmdir` – Deletes an empty folder.
+- `del` – Deletes a file.
+- `copy` – Copies files.
+- `move` – Moves files.
+- `ren` – Renames a file.
+- `type` – Displays the contents of a file.
+- `ipconfig` – Shows IP configuration.
+- `ping` – Tests the network connection.
+- `tracert` – Traces the network path.
+- `netstat` – Shows active network connections.
+- `tasklist` – Lists all running processes.
+- `taskkill` – Stops a running process.
+- `systeminfo` – Displays system information.
+- `whoami` – Shows the current user.
+- `set` – Displays environment variables.
+- `echo` – Prints text in the terminal.
+- `start` – Opens an application or file.
+- `shutdown` – Shuts down or restarts the computer.
+- `tree` – Displays the folder structure.
 
 **Git Basics**
-git --version – Displays the installed Git version.
-git config --global user.name "Preethi" – Sets your Git username globally.
-git config --global user.email "email@example.com" – Sets your Git email globally.
-git config --global init.defaultBranch main – Sets main as the default branch for all new Git repositories.
-git config user.name – Displays the configured Git username.
-git config user.email – Displays the configured Git email.
-git init – Initializes a new Git repository in the current directory.
-git status – Shows the status of tracked, modified, and untracked files.
-git add . – Stages all new and modified files for the next commit.
-git add <file> – Stages a specific file for the next commit.
-git commit -m "message" – Saves the staged changes with a commit message.
-git remote add origin <repository-url> – Adds a remote repository named origin.
-git remote -v – Displays the remote repository URLs for fetch and push.
-git remote set-url origin <repository-url> – Changes the URL of the existing remote repository.
-git branch – Lists all local branches.
-git branch -M main – Renames the current branch to main.
-git push -u origin main – Pushes the local main branch to the remote repository and sets it as the upstream branch.
-pwd – Displays the current working directory.
-ls – Lists the files and folders in the current directory.
-ls -l – Lists files with detailed information.
-ls -a – Lists all files, including hidden files.
-cd <directory> – Changes the current working directory.
-mkdir <folder> – Creates a new directory.
-rmdir <folder> – Removes an empty directory.
-touch <filename> – Creates a new empty file.
-cat <filename> – Displays the contents of a file.
-echo "text" > filename – Writes text to a file, replacing its existing content.
-echo "text" >> filename – Appends text to the end of a file.
-cp source destination – Copies a file from one location to another.
-mv oldname newname – Moves or renames a file or directory.
-rm <filename> – Deletes a file.
-rm -r <directory> – Deletes a directory and its contents recursively.
-rm -rf .git – Forcefully removes the .git directory and all Git history.
-history – Displays the history of previously executed commands.
+
+- `git --version` – Displays the installed Git version.
+- `git config --global user.name "Preethi"` – Sets your Git username globally.
+- `git config --global user.email "email@example.com"` – Sets your Git email globally.
+- `git config --global init.defaultBranch main` – Sets `main` as the default branch for all new Git repositories.
+- `git config user.name` – Displays the configured Git username.
+- `git config user.email` – Displays the configured Git email.
+- `git init` – Initializes a new Git repository in the current directory.
+- `git status` – Shows the status of tracked, modified, and untracked files.
+- `git add .` – Stages all new and modified files for the next commit.
+- `git add <file>` – Stages a specific file for the next commit.
+- `git commit -m "message"` – Saves the staged changes with a commit message.
+- `git remote add origin <repository-url>` – Adds a remote repository named `origin`.
+- `git remote -v` – Displays the remote repository URLs for fetch and push.
+- `git remote set-url origin <repository-url>` – Changes the URL of the existing remote repository.
+- `git branch` – Lists all local branches.
+- `git branch -M main` – Renames the current branch to `main`.
+- `git push -u origin main` – Pushes the local `main` branch to the remote repository and sets it as the upstream branch.
+- `pwd` – Displays the current working directory.
+- `ls` – Lists the files and folders in the current directory.
+- `ls -l` – Lists files with detailed information.
+- `ls -a` – Lists all files, including hidden files.
+- `cd <directory>` – Changes the current working directory.
+- `mkdir <folder>` – Creates a new directory.
+- `rmdir <folder>` – Removes an empty directory.
+- `touch <filename>` – Creates a new empty file.
+- `cat <filename>` – Displays the contents of a file.
+- `echo "text" > filename` – Writes text to a file, replacing its existing content.
+- `echo "text" >> filename` – Appends text to the end of a file.
+- `cp source destination` – Copies a file from one location to another.
+- `mv oldname newname` – Moves or renames a file or directory.
+- `rm <filename>` – Deletes a file.
+- `rm -r <directory>` – Deletes a directory and its contents recursively.
+- `rm -rf .git` – Forcefully removes the `.git` directory and all Git history.
+- `history` – Displays the history of previously executed commands.
 
 **HTML basics: tags & page structure**
 
@@ -125,49 +127,49 @@ history – Displays the history of previously executed commands.
 
 **Tags**
 
-<!DOCTYPE html> – Declares that the document is an HTML5 document.
-<html> – Represents the root element of an HTML document.
-<head> – Contains metadata and information about the webpage.
-<title> – Sets the title displayed on the browser tab.
-<body> – Contains all the visible content of the webpage.
-<form> – Creates a form to collect user input.
-<div> – Groups related HTML elements into a section.
-<label> – Defines a label for an input field.
-<input> – Creates an input field for user data.
-<br> – Inserts a single line break.
-<a> – Creates a hyperlink to another page or website.
-<h1> – Defines the main heading of the webpage.
-<p> – Defines a paragraph of text.
-<table> – Creates a table to organize data into rows and columns.
-<thead> – Groups the header content of a table.
-<tbody> – Groups the main content of a table.
-<tr> – Defines a row in a table.
-<th> – Defines a header cell in a table.
-<td> – Defines a data cell in a table.
-<img> – Displays an image on the webpage.
-<ul> – Creates an unordered (bulleted) list.
-<li> – Defines an item in a list.
-<ol> – Creates an ordered (numbered) list.
+- `<!DOCTYPE html>` – Declares that the document is an HTML5 document.
+- `<html>` – Represents the root element of an HTML document.
+- `<head>` – Contains metadata and information about the webpage.
+- `<title>` – Sets the title displayed on the browser tab.
+- `<body>` – Contains all the visible content of the webpage.
+- `<form>` – Creates a form to collect user input.
+- `<div>` – Groups related HTML elements into a section.
+- `<label>` – Defines a label for an input field.
+- `<input>` – Creates an input field for user data.
+- `<br>` – Inserts a single line break.
+- `<a>` – Creates a hyperlink to another page or website.
+- `<h1>` – Defines the main heading of the webpage.
+- `<p>` – Defines a paragraph of text.
+- `<table>` – Creates a table to organize data into rows and columns.
+- `<thead>` – Groups the header content of a table.
+- `<tbody>` – Groups the main content of a table.
+- `<tr>` – Defines a row in a table.
+- `<th>` – Defines a header cell in a table.
+- `<td>` – Defines a data cell in a table.
+- `<img>` – Displays an image on the webpage.
+- `<ul>` – Creates an unordered (bulleted) list.
+- `<li>` – Defines an item in a list.
+- `<ol>` – Creates an ordered (numbered) list.
 
 **Attributes**
 
-action – Specifies where the form data should be sent after submission.
-method – Specifies the HTTP method (GET or POST) used to submit the form.
-for – Associates a <label> with a specific input element.
-type – Specifies the type of input field (e.g., text, password, button).
-id – Assigns a unique identifier to an HTML element.
-placeholder – Displays hint text inside an input field.
-required – Makes an input field mandatory before form submission.
-value – Specifies the value displayed on an input button.
-href – Specifies the destination URL of a hyperlink.
-target="\_blank" – Opens the linked page in a new browser tab.
-src – Specifies the path of an image file.
-alt – Provides alternative text for an image.
-height – Sets the height of an element, such as an image.
-width – Sets the width of an element, such as an image.
-border – Specifies the border thickness of a table
-
-Implemented these tags and attributes in the below program
+- `action` – Specifies where the form data should be sent after submission.
+- `method` – Specifies the HTTP method (`GET` or `POST`) used to submit the form.
+- `for` – Associates a `<label>` with a specific input element.
+- `type` – Specifies the type of input field (e.g., `text`, `password`, `button`).
+- `id` – Assigns a unique identifier to an HTML element.
+- `placeholder` – Displays hint text inside an input field.
+- `required` – Makes an input field mandatory before form submission.
+- `value` – Specifies the value displayed on an input button.
+- `href` – Specifies the destination URL of a hyperlink.
+- `target="_blank"` – Opens the linked page in a new browser tab.
+- `src` – Specifies the path of an image file.
+- `alt` – Provides alternative text for an image.
+- `height` – Sets the height of an element, such as an image.
+- `width` – Sets the width of an element, such as an image.
+- `border` – Specifies the border thickness of a table.
+- `lang` – Specifies the language of the HTML document.
+  Implemented these tags and attributes in the below program
 
 **index.html**
 
