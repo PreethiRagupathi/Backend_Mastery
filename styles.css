@@ -1,27 +1,31 @@
-
-#heading {
-  color: rgb(8, 8, 110);
+.heading {
+  width: 100%;
+  height: 40vh;
+  background-image: url("images/oceantitlebg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.box {
-  border: 2px solid black;
-  padding: 10px;
+.heading h1 {
+  color: white;
+  font-size: 45px;
+}
+#mp {
   margin: 10px;
-  width: 300px;
-  height: 200px;
-  background-color: rgb(246, 247, 248, 0.6);
-  border-radius: 8px;
-}
-.s {
-  text-align: center;
-}
-.image-box {
-  background-color: rgb(138, 209, 231);
-}
-* {
-  font-size: 20px;
+  background-color: rgba(53, 118, 183, 0.6);
 }
 #h {
-  font-size: 50px;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+#sign {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
   text-align: center;
 }
 .b {
@@ -29,35 +33,172 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
-  margin-top: 75px;
+  min-height: 100vh;
+  margin-top: 60px;
 }
 .container {
   display: flex;
   justify-content: center;
 }
-#r {
-  text-align: center;
-  color: white;
-}
-.bb {
+.box {
+  width: 420px;
+  padding: 40px;
   border: 2px solid black;
-  padding: 10px;
-  margin: 10px;
-  width: 300px;
-  height: 380 px;
-  background-color: rgb(246, 247, 248, 0.6);
-  border-radius: 8px;
+  border-radius: 10px;
+  background-color: rgba(246, 247, 248, 0.6);
+}
+.s {
+  text-align: center;
+  margin-top: 20px;
+}
+#r a:hover {
+  text-decoration: underline;
+}
+#sign {
+  text-align: center;
+}
+#sign a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  outline: none;
+}
+#sign a:hover {
+  text-decoration: underline;
 }
 .c {
   display: flex;
   justify-content: center;
-  margin-top: 75 px;
+  align-items: center;
+}
+.bb {
+  width: 470px;
+  padding: 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(246, 247, 248, 0.6);
+}
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.row label {
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.row input {
+  flex: 1;
 }
 .ss {
   text-align: center;
+  margin-top: 15px;
+}
+input {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 input::placeholder {
-  font-size: 12px;
-  border-radius: 20 px;
+  font-size: 13px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  width: 270px;
+}
+input[type="submit"] {
+  width: 120px;
+  padding: 10px;
+  background-color: #0b74b8;
+  color: white;
+  border-radius: 5px;
+}
+input[type="submit"]:hover {
+  background-color: #085b90;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: rgb(195, 207, 219);
+  padding: 20px;
+  margin-top: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+nav a:hover {
+  background-color: rgb(67, 124, 177);
+  color: white;
+}
+#r {
+  text-align: center;
+  margin-top: 15px;
+  background-color: transparent;
+  padding: 0;
+}
+#r a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  outline: none;
+}
+#About {
+  width: 75%;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: rgb(195, 207, 219);
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+#About h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#About p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.8;
+}
+.bg {
+  background: linear-gradient(to bottom, rgb(18, 94, 99), rgb(1, 52, 85));
+}
+.seaanimals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 25px;
+}
+.seaanimals div {
+  width: 220px;
+  text-align: center;
+  color: white;
+}
+.seaanimals img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.seaanimals p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media (max-width:768px)
+{
+  nav{
+    flex-direction: column;
+    gap:10px;
+  }
 }
