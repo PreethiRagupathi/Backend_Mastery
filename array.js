@@ -66,3 +66,21 @@ display();
 findstudent(1);
 above8ty();
 namearray();
+
+/*Output
+4 added to the array
+Displaying all the details
+{ id: 1, name: 'Preethi', marks: 85 }
+{ id: 2, name: 'Nithya', marks: 92 }
+{ id: 3, name: 'Deepika', marks: 78 }
+{ id: 4, name: 'Mithuna', marks: 99 }
+Name for the id 1 is Preethi
+The student above 80 
+[
+  { id: 1, name: 'Preethi', marks: 85 },
+  { id: 2, name: 'Nithya', marks: 92 },
+  { id: 4, name: 'Mithuna', marks: 99 }
+]
+Storing names in the seperate array
+[ 'Preethi', 'Nithya', 'Deepika', 'Mithuna' ]
+ */
