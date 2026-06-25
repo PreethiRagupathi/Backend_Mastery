@@ -81,6 +81,7 @@ Today I learned looping concepts and conditional statements in JavaScript. I pra
 
 - Used when multiple choices need to be handled based on a single value.
 - Provides a cleaner alternative to multiple `if...else if` statements.
+
 ## User Input in Node.js
 
 ### `prompt-sync`
@@ -88,11 +89,12 @@ Today I learned looping concepts and conditional statements in JavaScript. I pra
 Installing prompt-sync
 
 npm install prompt-sync
-* Used to accept user input from the terminal.
-* Makes console applications interactive.
-* Returns input as a string by default.
-* `Number()` can be used to convert numeric input into a number.
-* Commonly used for practicing conditions, loops, and basic JavaScript programs in a Node.js environment.
+
+- Used to accept user input from the terminal.
+- Makes console applications interactive.
+- Returns input as a string by default.
+- `Number()` can be used to convert numeric input into a number.
+- Commonly used for practicing conditions, loops, and basic JavaScript programs in a Node.js environment.
 
 ## Programs Implemented
 
@@ -104,4 +106,4 @@ npm install prompt-sync
 
 Program files
 
-- [lc.js](../lc.js)
+[lc.js](./lc.js)
