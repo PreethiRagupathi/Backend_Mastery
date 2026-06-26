@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Event Handling</title>
+  </head>
+  <body>
+    <p>1 Click event by using onclick</p>
+    <button onclick="console.log('Button clicked !')">Click me</button>"
+
+    <p>2 Mouseover =>It displays the message if our mouse moves over this</p>
+    <button onmouseover="alert('Mouse Over!')">Hover Me!</button>
+
+    <p>3 Keydown => It counts how many times we are typing</p>
+    <input type="text" onkeydown="console.log('Key down!')" />
+
+    <p>4 Submit</p>
+    <form onsubmit="alert('Form submitted!')">
+      <input type="text" required />
+      <button type="submit">Submit</button>
+    </form>
+
+    <p>
+      5 Event Listener - select the button using the document.querySelector()
+      and then adding a click event listener We pass two parameter into the
+      eventLister .First Parameter is like click,hover,submit etc.. second one
+      what function should be triggered
+    </p>
+
+    <button id="mybutton">Click Me</button>
+    <script>
+      const button = document.querySelector("#mybutton");
+      button.addEventListener("click", () => {
+        alert("Event Listener , Button clciked !");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>DOM</title>
+    <style>
+      .mybtn {
+        background-color: gray;
+        color: white;
+      }
+      .active {
+        background-color: green;
+      }
+      #head {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="head">Welcome !</h1>
+    <p class="msg">Happy morning</p>
+    <p>Today we are going to focus more on DOM</p>
+    <button id="btn" class="mybtn" onclick="markRed()">Turn Green</button>
+    <input type="text" id="username" />
+    <button onclick="showvalue()">Show Value</button>
+  </body>
+  <script>
+    //getElementById
+    document.getElementById("head").textContent = "Hello Preethi!";
+    let heading = document.getElementById("head");
+
+    //getElementByClassName
+    console.log(heading); //returns Hello Preethi
+    let element = document.getElementsByClassName("msg");
+    console.log(element[0]); //returns Happy morning
+
+    //getElementByTagName
+    let paratag = document.getElementsByTagName("p");
+    console.log(paratag[1]); //returns Today we are....
+
+    //querySelector
+    let qryscr = document.querySelector("#head"); //for id
+    console.log(qryscr); // returns Hello Preethi
+
+    qryscr = document.querySelector(".msg"); //for class
+    console.log(qryscr); //returns Happy morning
+
+    //querSelectorAll
+    let qryall = document.querySelectorAll(".msg");
+    console.log(qryall);
+
+    //innerhtml
+    document.getElementById("head").innerHTML = "Hello !";
+    heading.style.color = "red"; //hello displays in red colour
+
+    //working with class
+    heading.classList.add("active");
+    function markRed() {
+      let fun = document.getElementById("btn");
+      fun.classList.toggle("active");
+    }
+
+    function showvalue() {
+      let value = document.getElementById("username").value;
+      console.log(value);
+    }
+  </script>
+</html>
