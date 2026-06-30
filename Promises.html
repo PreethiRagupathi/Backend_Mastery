@@ -1,0 +1,33 @@
+<html>
+<head><h1>Promises</h1></head>
+<script>
+    //.all()-if one promises fail directly goes to catch
+/*Promise.all([
+    Promise.resolve("Task 1 completed"),
+    Promise.resolve("Task 2 completed"),
+    Promise.reject("Task 3 failed"),
+]).then((message)=>{
+    console.log(message);
+
+}).catch((error)=>{
+    console.log(error)
+})
+
+Problem: Online Exam Result
+
+Create a Promise that checks whether a student has passed an exam.
+*/
+let mark=45;
+let examresult=new Promise((resolve,reject)=>{
+    if(mark>=35)
+    resolve("You have passed");
+    else
+    reject("You have failed");
+});
+examresult.then((message)=>{
+    console.log(message);
+}).catch((error)=>{
+    console.log(error);
+});
+</script>
+</html>
