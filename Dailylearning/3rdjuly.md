@@ -172,7 +172,7 @@ Readonly properties cannot be modified after the object is created.
 - Improved code readability by using template literals instead of string concatenation.
 
 Interrface Program file
-[interfaces.ts](./Typescript/interfaces.ts)
+[interfaces.ts](../Typescript/interfaces.ts)
 
 Object type program file
-[objecttype.ts](./Typescript/objecttype.ts)
+[objecttype.ts](../Typescript/objecttype.ts)

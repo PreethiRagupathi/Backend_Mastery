@@ -291,4 +291,4 @@ Today I practiced:
 
 This helped me understand how TypeScript combines JavaScript's flexibility with strong typing and compile-time error detection.
 
-[StudentGradeCalculator.ts](./Typescript/StudentGradeCalculator.ts)
+[StudentGradeCalculator.ts](../Typescript/StudentGradeCalculator.ts)

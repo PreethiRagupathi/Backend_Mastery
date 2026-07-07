@@ -70,5 +70,5 @@ I learned how to attach events using `addEventListener()`. This method separates
 
 ## Program Files
 
-Document Object Model - [DOM.html](./DOM.html)
-Event Handling- [eh.html](./eh.html)
+Document Object Model - [DOM.html](../Practicefolder/DOM.html)
+Event Handling- [eh.html](../Practicefolder/eh.html)

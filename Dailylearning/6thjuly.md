@@ -288,4 +288,4 @@ function functionName<T>(parameter: T): T {
 ```
 
 The type parameter `T` acts as a placeholder. TypeScript automatically replaces it with the actual type during function execution.
-[EMS.ts](./EMS.ts)
+[EMS.ts](../Typescript/EMS.ts)

@@ -180,4 +180,4 @@ console.log(user[query]);
 
 ### JavaScript Source File
 
-[array.js](./array.js)
+[array.js](../Practicefolder/array.js)

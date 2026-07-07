@@ -90,4 +90,4 @@ Built a GitHub User Search application using Fetch API to:
 - Practical usage of HTTP methods such as GET, POST, PUT, PATCH, and DELETE.
 - Debugging API-related issues using browser tools.
 
-[Githubusersearch.html](./Githubusersearch.html)
+[Githubusersearch.html](../Practicefolder/Githubusersearch.html)

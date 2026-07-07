@@ -106,4 +106,4 @@ npm install prompt-sync
 
 Program files
 
-[lc.js](./lc.js)
+[lc.js](../Practicefolder/lc.js)
