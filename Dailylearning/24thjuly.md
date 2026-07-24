@@ -1,4 +1,4 @@
-# 📅 Day 1 – NestJS REST API Fundamentals
+## NestJS REST API Fundamentals
 
 ## 📖 Overview
 
