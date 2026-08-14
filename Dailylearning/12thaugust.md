@@ -1,4 +1,4 @@
-# 11.08.2026
+# 12.08.2026
 
 # GraphQL/API Design – Catalogue & Orders
 
